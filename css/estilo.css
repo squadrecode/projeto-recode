@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+header table{
+    background-color:#925ff6 ;
+    box-shadow: 7px 7px 13px 0 rgba(50,50, 50, 0.22);
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    justify-content:left;
+}
+
+
+table a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.container1 {
+    overflow-y: hidden;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    box-shadow: 7px 7px 13px 0 rgba(50,50, 50, 0.22);
+
+}
+
+main span h2{
+    color: #844fec;
+    text-align: start;
+    font-family: Montserrat, sans-serif;
+    font-size: max(40px 4vw);
+    font-weight: 500;
+    margin: 40px;
+    padding: 10px;
+}
+
+.text-primary {
+    color: #844fec;
+    text-align: start;
+    font-family: Montserrat, sans-serif;
+    font-size: max(40px 4vw);
+    font-weight: 500;
+    margin: 40px;
+    padding: 10px;
+}
+
+.row{
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    margin: 50px;
+    padding-left: 10px ;
+}
+
+.row2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 500px;
+    margin: 50px;
+    padding: 10px;
+    box-shadow: 7px 7px 13px 0 rgba(50,50, 50, 0.22);
+}
+
+.row2 img{
+    width: 200px;
+    border-radius: 5px;
+}
+.row2:hover{
+    cursor: pointer;
+}
+
+.cards-style {
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0 rgba(50,50, 50, 0.22);
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+}
+
+main .card h1{
+    color: #778899;
+    display: inline;
+    font-family: Poppins, sans-serif;
+    text-align: center;
+    font-size:30px;
+    padding: 5px;
+    font-weight:bold ;
+}
+main .card h3{
+    color: #778899;
+    display: flex;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    font-weight:lighter ;
+}
+
+main span h1{
+    color: rgb(39, 36, 36);
+    font-family: Montserrat, sans-serif;
+    font-size: max(40px,4vw);
+    font-weight: 400;
+    text-align: start;
+    margin: 20px;
+    padding: 20px;
+}
+
+main span h3{
+    color: rgb(39, 36, 36);
+    text-align: start;
+    font-family: Montserrat, sans-serif;
+    font-size: max(20px 4vw);
+    font-weight: bolder;
+    margin: 20px;
+    padding: 10px;
+}
+
+.contato{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contato img{
+    width: 300px;
+    border-radius: 5px;
+}
+
+main textarea{
+    width: 50px;
+    border-radius: 8px;
+}
+
+main .form-row, .form-group, button{
+    justify-content: center;
+    margin: 15px;
+}
+
+.rodape{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0px;
+    padding: 40px;
+    justify-content: end;
+}
+
+
+.button button{
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: #6c63ff;
+    border-radius: 5px;
+    margin-top: 20px;
+    
+}
+
+.button button a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.container1 {
+    overflow-y: hidden;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    box-shadow: 7px 7px 13px 0 rgba(50,50, 50, 0.22);
+    flex-wrap: wrap;
+}
+
+.cadastro-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastro-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.form-cadastro{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #fff;
+    padding: 3rem;
+}
+
+.header{
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h1::after{
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #6c63ff;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.group{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.box input{
+    margin: 0.6rem 0;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+
+.box label{
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+.button button {
+    width: 100%;
+    height: 50px;
+    margin-top: 2.5rem;
+    border: none;
+    background-color: #6c63ff;
+    border-radius: 5px;
+    
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.botao-doacao {
+    width: 100%;
+    margin-top: 2.5rem;
+    border: none;
+    background-color: #6c63ff;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+@media screen and(max-width: 1330px){
+    .cadastro-img{
+        display: none;
+    }
+    .container1{
+        width: 50%
+    }
+
+    .form-cadastro{
+        width: 100%;
+    }
+}
+
+.header1{
+    padding-bottom: 3rem;
+    margin-bottom:3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header1 h1::after{
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #6c63ff;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.form-check label{
+    display: flex;
+    font-size: larger;
+    font-weight: 500;
+    margin-left: 5px;
+    padding-bottom: 50px;
+
+}
+footer {
+    background: #925ff6;
+    color: white;
+    padding: 50px 0;
+}
+
+.logofooter {
+    width: 150px;
+    height:150px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer .redesociais img {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+footer .copy {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.espaçofeed {
+    margin-top: 35px;
+}
+
